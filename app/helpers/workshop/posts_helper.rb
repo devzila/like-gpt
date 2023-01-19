@@ -1,0 +1,2 @@
+module Workshop::PostsHelper
+end
