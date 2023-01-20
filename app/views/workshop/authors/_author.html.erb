@@ -20,7 +20,7 @@
   </p>
 
   <% if action_name != "show" %>
-    <%= link_to "Show this author", author, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to "Show this author", workshop_author_path(author), class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
     <%= link_to 'Edit this author', edit_workshop_author_path(author), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
     <hr class="mt-6">
   <% end %>
